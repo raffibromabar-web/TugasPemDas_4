@@ -37,4 +37,8 @@ int main(){
     bmi = hitungBMI(berat, tinggi);
 
     status = tentukanStatus(bmi);
+
+    cout << "\n--- Hasil ---" << endl;
+    cout << "BMI Anda : " << bmi << endl;
+    cout << "Sattus   : " << status << endl;
 }
