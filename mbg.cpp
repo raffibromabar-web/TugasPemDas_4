@@ -12,3 +12,7 @@ void inputData(float &berat, float &tinggi){
 float hitungBMI(float berat, float tinggi){
     return berat / (tinggi * tinggi);
 }
+
+string tentukanStatus(float bmi){
+    
+}
