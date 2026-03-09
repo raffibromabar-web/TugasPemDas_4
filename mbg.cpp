@@ -33,4 +33,8 @@ int main(){
     string status;
 
     inputData(berat, tinggi);
+
+    bmi = hitungBMI(berat, tinggi);
+
+    status = tentukanStatus(bmi);
 }
